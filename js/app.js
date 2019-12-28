@@ -12,3 +12,4 @@ const LINE_THROUGH = "linethrough";
 const options = {weekday: "long",month:"short",day:"numeric"};
 const today =  new Date();
 dataElement.innerHTML = today.toLocaleDateString("en-US",options);
+alert("hello");
